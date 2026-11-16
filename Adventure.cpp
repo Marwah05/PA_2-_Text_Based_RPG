@@ -345,6 +345,7 @@ int Adventure::bestLoot(Scene<Moment>* scene, int hp, const std::string& path, s
     if (hpNow <= 0) {
         return -1;
     }
+
     int lootHere = m->getLoot();
     if (scene->isEnding()) {
         bestPath = path;
