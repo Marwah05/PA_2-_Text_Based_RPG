@@ -148,7 +148,7 @@ int Adventure::askChoice(int numChoices) {
         if (!std::getline(std::cin, choiceStr)) {
             return 0;
         }
-        // gets rid of windows shinanigans
+        // gets rid of windows shenanigans
         if (!choiceStr.empty() && choiceStr.back() == '\r') {
             choiceStr.pop_back();
         }
