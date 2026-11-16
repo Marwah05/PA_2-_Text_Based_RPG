@@ -3,4 +3,7 @@
   <component name="CMakePythonSetting">
     <option name="pythonIntegrationState" value="YES" />
   </component>
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/cs210_pa2_starter">
+    <contentRoot DIR="$PROJECT_DIR$" />
+  </component>
 </project>

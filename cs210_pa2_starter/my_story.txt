@@ -1,6 +1,102 @@
 START_HP 10
-SCENE Replace this file with your own story.
+SCENE You step into an ancient Dragon Spire. Three echoing corridors stretch before you.
 HP 0
 LOOT 0
 ITEM none
-CHOICES 0
+CHOICES 3
+LABEL Enter the blazing Ruby Hall
+  SCENE The air is hot and humid. A massive red dragon guards a glowing pile of treasure.
+  HP 0
+  LOOT 2
+  ITEM Ruby Ring
+  CHOICES 2
+  LABEL Offer the Ruby Ring to the dragon
+    SCENE The dragon accepts the gift and bows its head, allowing you to continue down the hall.
+    HP -1
+    LOOT 3
+    ITEM Dragon Scale
+    CHOICES 1
+    LABEL Push open the heavy metal door
+      SCENE Sunlight barely enters through the cracks of the stone. A golden key rests on a pedestal in the middle.
+      HP -2
+      LOOT 1
+      ITEM Golden Key
+      CHOICES 1
+      LABEL Unlock the grand gate
+        SCENE You unlock the final portal and step out into the open field, you are free (yes it was that easy)!
+        HP 0
+        LOOT 3
+        ITEM Crown of Freedom
+        CHOICES 0
+  LABEL try to sneak past the red dragon without paying
+    SCENE The dragon wakes up upon hearing your quiet footsteps and breathes fire all around the hall. You're cooked.
+    HP -15
+    LOOT 0
+    ITEM none
+    CHOICES 0
+LABEL Walk down the Sapphire Chamber
+  SCENE Blue crystals illuminate a soft gentle looking frosty dragon sleeping on a bed of shiny blue crystals.
+  HP 0
+  LOOT 2
+  ITEM Sapphire Shard
+  CHOICES 2
+  LABEL Toss a random rock into the dragon's basket of gems
+    SCENE The frosty dragon blinks sleepily as it nudges a secret lever open.
+    HP -2
+    LOOT 4
+    ITEM Secret Lever
+    CHOICES 1
+    LABEL Whisper the secret ancient words "open sesame"
+      SCENE The stone wall slowly begins to move and reveal a hidden path.
+      HP -2
+      LOOT 1
+      ITEM White Crystal
+      CHOICES 1
+      LABEL Cross the shimmering crystal bridge beyond the hidden path
+        SCENE You safely cross the chasm and reach a stone altar.
+        HP -2
+        LOOT 2
+        ITEM Altar Gem
+        CHOICES 2
+        LABEL Place the Sapphire Shard upon the altar
+          SCENE The altar glows brightly, unlocking another secret passage, a light at the end of it can be see.
+          HP 0
+          LOOT 5
+          ITEM Passage Key
+          CHOICES 1
+          LABEL Step through into the grand sanctuary exit
+            SCENE You completed the trial of the frosty dragon and exited the dungeon!
+            HP 0
+            LOOT 8
+            ITEM Sanctuary Orb
+            CHOICES 0
+        LABEL Place the White Crystal upon the altar
+          SCENE The alter doesn't move for a moment, then suddenly the entire dungeon begins to collapse. You're dead.
+          HP -15
+          LOOT 0
+          ITEM none
+          CHOICES 0
+  LABEL Poke the dragon with a random stick to wake it up
+    SCENE The dragon blows extremely cold air on you and turns your body into a frozen block. Adventure is over.
+    HP -15
+    LOOT 0
+    ITEM none
+    CHOICES 0
+LABEL Explore the dark Emerald Tunnel
+  SCENE Thick vines hang from the ceiling with a sleepy emerald dragon blocking the way.
+  HP -3
+  LOOT 5
+  ITEM Glowing Forest Moss
+  CHOICES 1
+  LABEL Give the dragon some of the Glowing Forest Moss
+    SCENE The dragon munches happily and curls itself up for a long nap, leaving the path open.
+    HP 0
+    LOOT 6
+    ITEM Moss Bundle
+    CHOICES 1
+    LABEL Step into the hidden garden beyond the path
+      SCENE You discover a peaceful underground sanctuary filled with ancient treasures, yet no food. You died.
+      HP -14
+      LOOT 3
+      ITEM Ancient Relic
+      CHOICES 0
